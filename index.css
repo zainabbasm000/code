@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.z-main-div-inner{
+    display: flex;
+    flex-direction: row;
+}
+.z-logo , .main-menu , .dsp {
+    width: 33.33%;
+}

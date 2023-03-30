@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-div" id="ff">
+        <div class="z-main-div-inner">
+            <div class="z-logo">
+                <h2>Social Suare </h2>
+            </div> 
+        <div class=" main-menu">
+<div class="main-menu-inner">
+    <div><a href="#"> Home</a></div>
+    <div><a href="#"> Tools</a>
+<ul>
+    <li><a href=""> Social</a></li>
+    <li><a href=""> Hub</a></li>
+    <li><a href=""> Pdf to word</a></li>
+    <li><a href=""> Word to pdf</a></li>
+</ul>
+    </div>
+</div>
+
+        </div>
+        <div class="dsp">
+            <div><a href="#">Sign up/Sign in</a></div>
+        </div>
+        </div>
+    </div>
+    <script>
+        let newElement = document.createElement("div");
+    let newContent = document.createTextNode("New content");
+    newElement.appendChild(newContent);
+    let v=document.querySelectorAll(".main-menu-inner div  a");
+        // v.classList.add("myClass");
+        let a=v.innerHTML.style.color="red";
+        document.write(a)
+    </script>
+</body>
+
+</html>
